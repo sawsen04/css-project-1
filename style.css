@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0 0 0 50px;
+  background-image: url(../assets/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+nav > ul > li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 40px;
+}
+a {
+  all: unset;
+  font-size: 1.9rem;
+  color: rgb(74, 160, 182);
+}
+a:hover {
+  color: rgb(214, 63, 68);
+  text-decoration: underline;
+  cursor: pointer;
+}
+#About-me,
+#My-Education,
+#Work-Experience,
+#Contact-me,
+#my-contact {
+  font-size: 1.6rem;
+  color: rgb(255, 0, 191);
+}
+/*name,job,place*/
+h1,
+h2,
+h3 {
+  color: rgb(240, 167, 160);
+  background-color: rgb(100, 44, 169);
+  width: fit-content;
+}
+/*this is footer*/
+.foot {
+    border: 4px black solid;
+    width: fit-content;
+}
+
+h4 {
+    text-decoration: underline;
+    color: rgb(130, 193, 203);
+}
+/*this is my pic*/
+div {
+    border: 5px gray solid;
+    border-style: groove;
+    width: fit-content;
+}
