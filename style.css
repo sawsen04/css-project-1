@@ -36,12 +36,16 @@ a:hover {
   color: rgb(255, 0, 191);
 }
 /*name,job,place*/
-h1,
 h2,
 h3 {
   color: rgb(240, 167, 160);
   background-color: rgb(100, 44, 169);
   width: fit-content;
+}
+h1 {
+  color: rgb(165, 42, 104);
+  text-shadow: 2px -5px 5px rgb(191, 0, 255);
+  font-size: 3em;
 }
 /*this is footer*/
 .foot {
@@ -54,8 +58,37 @@ h4 {
     color: rgb(130, 193, 203);
 }
 /*this is my pic*/
-div {
-    border: 5px gray solid;
-    border-style: groove;
-    width: fit-content;
+img {
+  border: 5px gray solid;
+  border-style: groove;
+  border-radius: 50%;
+  -webkit-animation:scale-up-center 1.5s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-center 1.5s cubic-bezier(.39,.575,.565,1.000) both
+}
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+
+form {
+  background-color: rgb(249, 154, 225);
+  width: fit-content;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+label {
+  color: rgb(87, 36, 169);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+  margin-left: 10px;
+  padding: 15px 10px;
+  outline: none;
+}
+textarea {
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+  padding: 15px 10px;
+  outline: none;
 }
